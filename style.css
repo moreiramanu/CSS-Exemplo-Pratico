@@ -1,0 +1,86 @@
+   @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+   .attribution {
+     font-size: 11px; 
+     text-align: center;
+     display:none;
+     }
+
+    .attribution a {
+         color: hsl(228, 45%, 44%);
+         }
+
+body {
+    font-family:"Figtree";
+    background-color:hsl(47, 88%, 63%) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
+h1 {
+  font-size:26px;
+  color: black;
+  margin-right: 50px;
+}
+p{
+    font-weight:180px;
+    font-size:19px;
+}
+#botao {
+    text-align: left;
+    font-weight: bold;
+    background-color:hsl(47, 88%, 63%) ;
+    margin-inline-end:300px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 5px;
+    line-height: 2px;
+}
+#card {
+  width: 425px;
+  height: 568px;
+  max-height: fit-content;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 14px;
+  box-shadow:0.6em 0.6em black; ;
+  padding-bottom: 50px;
+
+}
+#codigo {
+  border-radius: 15px;
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: center;
+}
+#codigo img {
+  width: auto;
+  height: 94%;
+  border-radius: 15px;
+}
+#cinza {
+    color:hsl(0, 0%, 42%);
+}
+#icon img {
+    width: 45px;
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+.icon {
+  display: flex;   
+  align-items: center;
+  font-weight: bold;
+  margin-right: 0px;
+ margin-bottom: 0;
+ padding-bottom: 0;
+}
