@@ -26,7 +26,6 @@ h1 {
   margin-right: 50px;
 }
 p{
-    font-weight:180px;
     font-size:19px;
 }
 #botao {
@@ -42,7 +41,7 @@ p{
 }
 #card {
   width: 425px;
-  height: 568px;
+  height: 558px;
   max-height: fit-content;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
@@ -58,7 +57,7 @@ p{
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-  padding: center;
+  padding:center;
 }
 #codigo img {
   width: auto;
